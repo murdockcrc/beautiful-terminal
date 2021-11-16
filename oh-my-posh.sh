@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Install Oh My Posh
 echo ''
 echo 'Installing Oh My Posh'
