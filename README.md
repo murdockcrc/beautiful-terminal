@@ -21,3 +21,6 @@ eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/jandedobbeleer.omp.
 
 ## Install colorls
 
+```
+zsh -c "$(curl -fsSL https://github.com/murdockcrc/beautiful-terminal/raw/master/colorls.sh)"
+```
