@@ -3,6 +3,7 @@
 # Update pkg lists
 echo "Updating package lists..."
 sudo apt-get update
+sudo apt-get install build-essential
 
 # zsh install
 which zsh > /dev/null 2>&1
@@ -81,38 +82,13 @@ echo ''
 wget https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark
 mv dircolors.256dark .dircolors
 
-# Pull down personal dotfiles
-# echo ''
-# read -p "Do you want to use jldeen's dotfiles? y/n" -n 1 -r
-# echo    # (optional) move to a new line
-# if [[ $REPLY =~ ^[Yy]$ ]]
-# then
-#     echo ''
-# 	echo "Now pulling down jldeen dotfiles..."
-# 	git clone https://github.com/jldeen/dotfiles.git ~/.dotfiles
-# 	echo ''
-# 	cd $HOME/.dotfiles && echo "switched to .dotfiles dir..."
-# 	echo ''
-# 	echo "Checking out wsl branch..." && git checkout wsl
-# 	echo ''
-# 	echo "Now configuring symlinks..." && $HOME/.dotfiles/script/bootstrap
-#     if [[ $? -eq 0 ]]
-#     then
-#         echo "Successfully configured your environment with jldeen's dotfiles..."
-#     else
-#         echo "jldeen's dotfiles were not applied successfully..." >&2
-# fi
-# else 
-# 	echo ''
-#     echo "You chose not to apply jldeen's dotfiles. You will need to configure your environment manually..."
-# 	echo ''
-# 	echo "Setting defaults for .zshrc and .bashrc..."
-# 	echo ''
-# 	echo "source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc && echo "added zsh-syntax-highlighting to .zshrc..."
-# 	echo ''
-# 	echo "source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc && echo "added zsh-autosuggestions to .zshrc..."
-# 	echo ''
-# 	echo "source $HOME/.git-completion.bash" >> ${ZDOTDIR:-$HOME}/.bashrc && echo "added git-completion to .bashrc..."
+echo "Setting defaults for .zshrc and .bashrc..."
+echo ''
+echo "source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc && echo "added zsh-syntax-highlighting to .zshrc..."
+echo ''
+echo "source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc && echo "added zsh-autosuggestions to .zshrc..."
+echo ''
+echo "source $HOME/.git-completion.bash" >> ${ZDOTDIR:-$HOME}/.bashrc && echo "added git-completion to .bashrc..."
 	
 # fi
 
