@@ -5,6 +5,13 @@ echo "Updating package lists..."
 sudo apt-get update
 sudo apt-get install build-essential
 
+# Install nodejs
+echo ''
+echo 'Installing Nodejs'
+
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
 # zsh install
 which zsh > /dev/null 2>&1
 if [[ $? -eq 0 ]] ; then
