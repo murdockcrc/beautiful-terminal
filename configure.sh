@@ -90,8 +90,6 @@ echo "source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${ZDOTDI
 echo ''
 echo "source $HOME/.git-completion.bash" >> ${ZDOTDIR:-$HOME}/.bashrc && echo "added git-completion to .bashrc..."
 	
-# fi
-
 # Setup and configure az cli
 echo ''
 read -p "Do you want to install Azure CLI? y/n (This will take some time...)" -n 1 -r
