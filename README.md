@@ -18,3 +18,6 @@ You may have to execute this line manually in the terminal:
 ```
 eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/jandedobbeleer.omp.json)"
 ```
+
+## Install colorls
+
