@@ -24,3 +24,13 @@ eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/jandedobbeleer.omp.
 ```
 zsh -c "$(curl -fsSL https://github.com/murdockcrc/beautiful-terminal/raw/master/colorls.sh)"
 ```
+
+# VScode extensions
+
+* [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+* [ESLint](https://github.com/Microsoft/vscode-eslint)
+* [Prettier](https://github.com/prettier/prettier-vscode)
+* [Vue](https://github.com/LiuJi-Jim/vscode-vue)
+* [Azure CLI tools](https://github.com/Microsoft/vscode-azurecli)
+* [Azure Resource Manager tools](https://github.com/Microsoft/vscode-azurearmtools)
+* [Open API Editor](https://github.com/42Crunch/vscode-openapi)
