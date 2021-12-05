@@ -8,9 +8,20 @@ sudo apt-get install build-essential
 # Install nodejs
 echo ''
 echo 'Installing Nodejs'
-
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
+
+# Install dotnet 6
+echo ''
+echo 'Installing dotnet'
+wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+
+sudo apt-get update; \
+  sudo apt-get install -y apt-transport-https && \
+  sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-6.0
 
 # zsh install
 which zsh > /dev/null 2>&1
