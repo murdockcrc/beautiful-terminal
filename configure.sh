@@ -3,7 +3,7 @@
 # Update pkg lists
 echo "Updating package lists..."
 sudo apt-get update
-sudo apt-get install build-essential
+sudo apt-get install build-essential -y
 
 # Install nodejs
 echo ''
