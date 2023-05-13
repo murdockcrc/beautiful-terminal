@@ -1,6 +1,13 @@
-# Basic setup
+# Windows setup
 
-## WSL
+Ensure you have `winget` installed
+
+```ps
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/murdockcrc/beautiful-terminal/master/windows-apps.ps1" -OutFile "windows-app.ps1"
+./windows-apps.ps1
+```
+
+# WSL
 
 ```
 wsl --install
@@ -12,8 +19,6 @@ wsl --install
 sudo apt-get update
 sudo apt-get upgrade -y
 ```
-
-# Setting up WSL
 
 ## Set the beautiful terminal
 
