@@ -35,6 +35,12 @@ echo 'eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/jandedobbelee
 zsh -c "$(curl -fsSL https://github.com/murdockcrc/beautiful-terminal/raw/master/colorls.sh)"
 ```
 
+## Install fonts
+
+https://ohmyposh.dev/docs/installation/fonts
+
+Assign the installed font to the WSL terminal
+
 # VScode extensions
 
 * [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
