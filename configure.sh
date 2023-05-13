@@ -22,6 +22,10 @@ sudo apt-get update; \
   sudo apt-get install -y apt-transport-https && \
   sudo apt-get update && \
   sudo apt-get install -y dotnet-sdk-7.0
+  
+# Install Python
+
+
 
 # zsh install
 which zsh > /dev/null 2>&1
