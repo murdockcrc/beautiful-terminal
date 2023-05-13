@@ -23,10 +23,6 @@ sudo apt-get update; \
   sudo apt-get update && \
   sudo apt-get install -y dotnet-sdk-7.0
   
-# Install Python
-
-
-
 # zsh install
 which zsh > /dev/null 2>&1
 if [[ $? -eq 0 ]] ; then
