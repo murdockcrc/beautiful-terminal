@@ -8,7 +8,7 @@ sudo apt-get install build-essential -y
 # Install nodejs
 echo ''
 echo 'Installing Nodejs'
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 # Install dotnet 6
@@ -21,7 +21,7 @@ rm packages-microsoft-prod.deb
 sudo apt-get update; \
   sudo apt-get install -y apt-transport-https && \
   sudo apt-get update && \
-  sudo apt-get install -y dotnet-sdk-6.0
+  sudo apt-get install -y dotnet-sdk-7.0
 
 # zsh install
 which zsh > /dev/null 2>&1
