@@ -1,6 +1,21 @@
-# Run
+# Basic setup
 
-## Initial install
+## WSL
+
+```
+wsl --install
+```
+
+## Update Linux
+
+```
+sudo apt-get update
+sudo apt-get upgrade -y
+```
+
+# Setting up WSL
+
+## Set the beautiful terminal
 
 Run this script. If you did not have oh my zsh installed, you will have to run this twice, since the installation of oh my zsh stop the execution of the script.
 
