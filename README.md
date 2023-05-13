@@ -26,12 +26,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/murdockcrc/beautiful-ter
 ## Install Oh My Posh
 ```
 zsh -c "$(curl -fsSL https://github.com/murdockcrc/beautiful-terminal/raw/master/oh-my-posh.sh)"
-```
-
-You may have to execute this line manually in the terminal:
-
-```
-eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/jandedobbeleer.omp.json)"
+echo 'eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/jandedobbeleer.omp.json)"' >> ~/.zshrc
 ```
 
 ## Install colorls
