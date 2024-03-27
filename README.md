@@ -4,7 +4,8 @@ Ensure you have `winget` installed
 
 ```ps
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/murdockcrc/beautiful-terminal/master/windows-apps.ps1" -OutFile "windows-app.ps1"
-./windows-apps.ps1
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+.\windows-apps.ps1
 ```
 
 # WSL
