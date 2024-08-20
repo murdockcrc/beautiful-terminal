@@ -56,3 +56,5 @@ Assign the installed font to the WSL terminal
 * [Azure CLI tools](https://github.com/Microsoft/vscode-azurecli)
 * [Azure Resource Manager tools](https://github.com/Microsoft/vscode-azurearmtools)
 * [Open API Editor](https://github.com/42Crunch/vscode-openapi)
+* devcontainers: ms-vscode-remote.remote-containers
+* Python: ms-python.python
